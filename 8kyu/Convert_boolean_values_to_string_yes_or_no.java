@@ -3,7 +3,7 @@
 
 //Minha solução
 
-class YesOrNo
+public class YesOrNo
 {
     public static String boolToWord(boolean b)
     {
