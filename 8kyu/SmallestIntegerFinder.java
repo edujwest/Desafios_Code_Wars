@@ -25,4 +25,15 @@ public class SmallestIntegerFinder {
         // Retorna o menor inteiro encontrado no array
         return menorInteiro;
     }
+
+
+    //outra solução para fins de comparação e estudo
+
+    public class SmallestIntegerFinder {
+        public static int findSmallestInt(int[] args) {
+            return IntStream.of(args).min().getAsInt();
+        }
+    }
+
+
 }
